@@ -1,0 +1,16 @@
+.mymobile {
+    display: none;
+}
+
+.mydesktop {
+    display: block;
+}
+@media (max-width: 420px) {
+    .mymobile {
+        display: block;
+        /* Add other properties here */
+    }
+    .mydesktop {
+        display: none;
+    }
+}
