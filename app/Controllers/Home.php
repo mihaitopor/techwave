@@ -72,6 +72,13 @@ class Home extends BaseController
             $postData['name'],
             $postData['phone']
         );
-        return redirect()->to('');
+
+        return $this->response
+            ->setJSON([
+                'text' => 'Success',
+                'response' => 'success',
+                'type' => 'Your message has been sent! You will be contacted soon by one of our specialists.'
+            ])
+            ->setStatusCode(200);
     }
 }

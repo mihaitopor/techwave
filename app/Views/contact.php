@@ -21,7 +21,7 @@
                 <h2 class="font-weight-bold text-7 mt-2 mb-0">Contact Us</h2>
                 <p class="mb-4">Feel free to ask for details, don't save any questions!</p>
 
-                <form class=" form-style-3" style="margin-right: 40px;" action="<?= base_url()?>home/contact" method="POST">
+                <form class="contact-form form-style-3" style="margin-right: 40px;" action="<?= base_url()?>home/contact" method="POST">
                     <div class="contact-form-success alert alert-success d-none">
                         Your message has been sent. Thank you for contacting us!
                     </div>
