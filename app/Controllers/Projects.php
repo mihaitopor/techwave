@@ -56,7 +56,7 @@ class Projects extends BaseController
 
     public function massage_administration()
     {
-        return $this->renderPage('massage_administration', 'Administration platform', 'Techwave administration platform', 'Mindbugs AI art Artificial intelligence artist developer Tech Art tech and art tech&art tech-art Tech-art artists Cluj-Napoca tech-art new media tech&art AI artificial intelligence ai&art ai art');
+        return $this->renderPage('massage_presentation', 'Administration platform', 'Techwave administration platform', 'Mindbugs AI art Artificial intelligence artist developer Tech Art tech and art tech&art tech-art Tech-art artists Cluj-Napoca tech-art new media tech&art AI artificial intelligence ai&art ai art');
     }
 
     public function massage_administration_ro()

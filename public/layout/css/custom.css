@@ -14,3 +14,34 @@
         display: none;
     }
 }
+
+  .scale-desktop {
+    transform: none; /* default pt mobile */
+  }
+
+  @media (min-width: 1024px) {
+    .scale-desktop {
+      transform: scale(1.2);
+    }
+  }
+
+  @media (max-width: 767.99px) {
+   .mobile-pad-0 {
+    padding: 0 !important;
+    margin: 0 !important;
+   }
+
+  .orders-text {
+    order: 1;
+  }
+
+  .orders-img {
+    order: 2;
+  }
+  .img-full-max {
+    max-width: 100% !important;
+  }
+  .mob-padd-custom {
+    padding-bottom: 9rem !important;
+  }
+}

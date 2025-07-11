@@ -52,7 +52,7 @@
         <div class="container py-2">
             <div class="row py-4">
                 <div class="col text-center">
-                    <p class="text-3">2021 © <strong class="font-weight-normal text-color-light opacity-7">TechWave</strong> - Copyright. All Rights Reserved.</p>
+                    <p class="text-3"><strong class="font-weight-normal text-color-light opacity-7">TechWave</strong> © <?php echo date("Y"); ?>. All Rights Reserved.</p>
                 </div>
             </div>
             <div class="row py-4">

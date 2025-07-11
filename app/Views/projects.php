@@ -134,7 +134,7 @@
                         <a href="<?= base_url() ?>projects/massage_administration">
                             <span class="thumb-info thumb-info-lighten border-radius-0">
                                 <span class="thumb-info-wrapper border-radius-0">
-                                    <img src="<?= base_url() ?>layout/img/specific/luna/luna1.jpg"
+                                    <img src="<?= base_url()?>layout/img/specific/luna/luna-intro.png"
                                          class="img-fluid border-radius-0" alt="">
 
                                     <span class="thumb-info-title">
